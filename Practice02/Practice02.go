@@ -8,10 +8,10 @@ var z bool
 
 func main() {
 	fmt.Println(x)
-	fmt.Println("%T\n", x)
+	fmt.Printf("%T\n", x)
 	fmt.Println(y)
-	fmt.Println("%T\n", y)
+	fmt.Printf("%T\n", y)
 	fmt.Println(z)
-	fmt.Println("%T\n", z)
+	fmt.Printf("%T\n", z)
 
 }
